@@ -4,5 +4,12 @@
     "type": "checkbox",
     "label": "Remove Reset Slash From Pinned Tabs",
     "default": "true"
+  },
+  
+  {
+    "property": "randommods.clean-tabs-archive-icon",
+    "type": "checkbox",
+    "label": "Clean Tabs Archive Icon",
+    "default": "true"
   }
 ]
