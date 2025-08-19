@@ -1,6 +1,6 @@
 @media (-moz-bool-pref: "randommods.clean-tabs-archive-icon") {
   #_ff31460c-43c4-494a-a350-a1c61506036e_-BAP.unified-extensions-item-action-button.toolbarbutton-1.panel-no-padding.webextension-browser-action {
     list-style-image: url("archive.svg") !important;
-    scale: 1.45 !important;
+    scale: 1.25 !important;
   }
 }
