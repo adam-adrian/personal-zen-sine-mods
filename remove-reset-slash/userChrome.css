@@ -1,0 +1,7 @@
+/* Remove the forward slash icon after the reset pin button */
+.tab-reset-pin-button::after {
+  display: none !important;
+}
+.tab-reset-pin-button {
+  margin-right: 2px !important;
+}

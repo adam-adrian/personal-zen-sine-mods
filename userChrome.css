@@ -1,0 +1,3 @@
+ @media (-moz-bool-pref: "randommods.remove-reset-slash") {
+    @import "remove-reset-slash/userChrome.css";
+ }
