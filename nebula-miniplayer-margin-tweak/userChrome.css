@@ -1,0 +1,9 @@
+@media (-moz-bool-pref: "randommods.nebula-miniplayer-margin-tweak") {
+  :root[zen-sidebar-expanded="true"] #zen-media-controls-toolbar {
+    align-self: "" !important;
+    width: "" !important;
+    margin: "" !important;
+    height: "" !important;
+    position: "" !important;
+  }
+}

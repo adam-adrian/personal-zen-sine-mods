@@ -25,5 +25,12 @@
     "type": "checkbox",
     "label": "Minor Workspace Indicator Tweak",
     "default": "true"
+  },
+  
+  {
+    "property": "randommods.nebula-miniplayer-margin-tweak",
+    "type": "checkbox",
+    "label": "Nebula Miniplayer Margin Tweak",
+    "default": "true"
   }
 ]
