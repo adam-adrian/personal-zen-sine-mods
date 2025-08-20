@@ -11,5 +11,12 @@
     "type": "checkbox",
     "label": "Clean Tabs Archive Icon",
     "default": "true"
+  },
+
+  {
+    "property": "randommods.quicktabs-tweak",
+    "type": "checkbox",
+    "label": "Quick Tabs Tweak",
+    "default": "true"
   }
 ]

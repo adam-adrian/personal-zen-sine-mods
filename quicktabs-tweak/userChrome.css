@@ -1,0 +1,13 @@
+@media (-moz-bool-pref: "randommods.quicktabs-tweak") {
+    .quicktabs-taskbar-item {
+    max-width: 150px;
+    }
+
+    #quicktabs-taskbar.collapsed .quicktabs-taskbar-toggle span {
+    padding-bottom: 2px;
+    }
+
+    #quicktabs-taskbar.collapsed {
+    min-width: 100px;
+    }
+}
