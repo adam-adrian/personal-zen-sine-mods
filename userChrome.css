@@ -5,5 +5,5 @@
 @import "nebula-miniplayer-margin-tweak/userChrome.css";
 
 #zen-sidebar-foot-buttons {
-	padding-top: 8px;
+	padding-top: 8px !important;
 }
