@@ -1,13 +1,15 @@
-& .zen-current-workspace-indicator-icon {
+@media (-moz-bool-pref: "randommods.minor-workspace-indicator-tweak") {
+    & .zen-current-workspace-indicator-icon {
 	width: 18px !important;
     height: 18px !important;
 }
 
 & .zen-current-workspace-indicator-name {
-    padding-top: 2.25px !important;
-    opacity: 1 !important;
+    padding-top: 3px !important;
+    opacity: 0.85 !important;
 }
 
 .zen-current-workspace-indicator {
     gap: 6px !important;
+}
 }

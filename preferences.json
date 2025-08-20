@@ -18,5 +18,12 @@
     "type": "checkbox",
     "label": "Quick Tabs Tweak",
     "default": "true"
+  },
+  
+  {
+    "property": "randommods.minor-workspace-indicator-tweak",
+    "type": "checkbox",
+    "label": "Minor Workspace Indicator Tweak",
+    "default": "true"
   }
 ]
