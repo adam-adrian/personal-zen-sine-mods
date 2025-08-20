@@ -3,7 +3,7 @@
 max-width: 150px !important;
 }
 
-#quicktabs-taskbar.collapsed .quicktabs-taskbar-toggle span {
+#quicktabs-taskbar .quicktabs-taskbar-toggle span {
 padding-bottom: 2px !important;
 }
 
