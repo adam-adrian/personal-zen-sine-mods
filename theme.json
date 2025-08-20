@@ -7,11 +7,11 @@
     "style": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/userChrome.css",
     "readme": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/README.md",
     "author": "neikamii",
-    "version": "1.12",
+    "version": "1.13",
     "tags": [
         "Zen Browser"
     ],
     "createdAt": "2025-08-19",
-    "updatedAt": "2025-08-20 18:36",
+    "updatedAt": "2025-08-20 18:40",
     "fork": ["zen"]
 }
