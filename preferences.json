@@ -19,6 +19,13 @@
     "label": "Quick Tabs Tweak",
     "default": "true"
   },
+
+  {
+    "property": "randommods.quicktabs-icon-only",
+    "type": "checkbox",
+    "label": "Quick Tabs Icon Only",
+    "default": "true"
+  },
   
   {
     "property": "randommods.minor-workspace-indicator-tweak",

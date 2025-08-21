@@ -11,3 +11,22 @@ padding-bottom: 2px !important;
 min-width: 100px !important;
 }
 }
+
+@media (-moz-bool-pref: "randommods.quicktabs-icon-only") {
+#quicktabs-taskbar.collapsed .quicktabs-taskbar-toggle span {
+display: none !important;
+}
+
+#quicktabs-taskbar.collapsed .quicktabs-taskbar-toggle svg {
+margin-right: 4px !important;
+margin-left: 3px !important;
+}
+
+#quicktabs-taskbar.collapsed {
+min-width: 10px !important;
+}
+
+#quicktabs-taskbar.collapsed .quicktabs-taskbar-toggle {
+height: 39px;
+}
+}
