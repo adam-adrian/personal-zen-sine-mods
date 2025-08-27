@@ -3,7 +3,7 @@
     & .zen-current-workspace-indicator-icon {
       @media (-moz-platform: windows) {
         & img {
-          margin-bottom: unset;
+          margin-bottom: unset !important;
           margin-right: 1px;
           width: 28px;
           height: 28px;
