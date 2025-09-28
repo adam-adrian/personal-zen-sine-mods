@@ -29,12 +29,12 @@
     display: block;
     width: 16px;
     height: 16px;
-    mask-image: var(--spinner-mask) !important;
     mask-size: contain;
     mask-repeat: no-repeat;
 }
 
 .tab-throbber[busy]::after {
+    mask-image: var(--spinner-mask) !important;
     background-color: var(--spinner-busy);
     filter: contrast(2.5);
 }
