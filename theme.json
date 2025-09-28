@@ -4,7 +4,9 @@
     "description": "Random Zen Browser mods for myself",
     "homepage": "https://github.com/adam-adrian/personal-zen-sine-mods",
     "preferences": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/preferences.json",
-    "style": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/userChrome.css",
+"style": {
+        "chrome": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/userChrome.css"
+    },
     "readme": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/README.md",
     "author": "neikamii",
     "version": "1.16t",
@@ -12,6 +14,6 @@
         "Zen Browser"
     ],
     "createdAt": "2025-08-19",
-    "updatedAt": "2025-09-28 12:25:00",
+    "updatedAt": "2025-09-28 13:01:00",
     "fork": ["zen"]
 }
