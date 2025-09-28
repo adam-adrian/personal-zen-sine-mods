@@ -1,0 +1,8 @@
+[
+{
+    "property": "randommods.quicktabs-icon-only",
+    "type": "checkbox",
+    "label": "Quick Tabs Icon Only",
+    "default": "true"
+  }
+]
