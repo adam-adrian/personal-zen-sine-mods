@@ -40,13 +40,7 @@
     "label": "Nebula Miniplayer Margin Tweak",
     "default": "true"
   },
-  {
-    "property": "zen.theme.hide-tab-throbber",
-    "type": "checkbox",
-    "label": "Toggle Hiding Builtin Tab Throbber in Zen (uncheck to enable)",
-    "default": "false"
 
-  },
   {
     "property": "randommods.tab-throbber-loading-circle",
     "type": "checkbox",

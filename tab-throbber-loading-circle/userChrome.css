@@ -5,8 +5,23 @@
     --spinner-progress: color-mix(in srgb, var(--zen-primary-color) 55%, var(--button-text-color) 45%);
 }
 
+#tabbrowser-tabs {
+    & .tabbrowser-tab {
+        .tab-throbber {
+            display: flex !important;
+            scale: 1.1;
+        }
+    }
+}
+
+.tabbrowser-tab[busy] {
+    & .tab-icon-image {
+        display: none !important;
+    }
+}
+
 .tab-throbber[busy]::before {
-display: none !important;
+    display: none !important;
 }
 
 .tab-throbber::after {
