@@ -1,29 +1,33 @@
 @media (-moz-bool-pref: "randommods.tab-throbber-loading-circle") {
+:root {
+    --spinner-mask: url("data:image/svg+xml,%3csvg width='16' height='16' stroke='%23ffffff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3e%3cstyle%3e.spinner_V8m1%7btransform-origin:center;animation:spinner_zKoa 2s linear infinite%7d.spinner_V8m1 circle%7bstroke-linecap:round;animation:spinner_YpZS 1.5s ease-in-out infinite%7d@keyframes spinner_zKoa%7b100%25%7btransform:rotate(360deg)%7d%7d@keyframes spinner_YpZS%7b0%25%7bstroke-dasharray:0 150;stroke-dashoffset:0%7d47.5%25%7bstroke-dasharray:42 150;stroke-dashoffset:-16%7d95%25,100%25%7bstroke-dasharray:42 150;stroke-dashoffset:-59%7d%7d%3c/style%3e%3cg class='spinner_V8m1'%3e%3ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3.5'%3e%3c/circle%3e%3c/g%3e%3c/svg%3e");
+    --spinner-busy: color-mix(in srgb, var(--zen-primary-color) 40%, var(--button-text-color) 60%);
+    --spinner-progress: color-mix(in srgb, var(--zen-primary-color) 55%, var(--button-text-color) 45%);
+}
+
 .tab-throbber[busy]::before {
 display: none !important;
 }
 
-.tabbrowser-tab[selected="true"] .tab-throbber[progress]::after {
+.tab-throbber::after {
     content: '';
     display: block;
     width: 16px;
     height: 16px;
-    filter: contrast(2);
-    background-color: color-mix(in srgb, var(--zen-primary-color) 55%, var(--button-text-color) 45%);
-    mask-image: url("data:image/svg+xml,%3csvg width='16' height='16' stroke='%23ffffff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3e%3cstyle%3e.spinner_V8m1%7btransform-origin:center;animation:spinner_zKoa 2s linear infinite%7d.spinner_V8m1 circle%7bstroke-linecap:round;animation:spinner_YpZS 1.5s ease-in-out infinite%7d@keyframes spinner_zKoa%7b100%25%7btransform:rotate(360deg)%7d%7d@keyframes spinner_YpZS%7b0%25%7bstroke-dasharray:0 150;stroke-dashoffset:0%7d47.5%25%7bstroke-dasharray:42 150;stroke-dashoffset:-16%7d95%25,100%25%7bstroke-dasharray:42 150;stroke-dashoffset:-59%7d%7d%3c/style%3e%3cg class='spinner_V8m1'%3e%3ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3.5'%3e%3c/circle%3e%3c/g%3e%3c/svg%3e") !important;
+    mask-image: var(--spinner-mask) !important;
     mask-size: contain;
     mask-repeat: no-repeat;
 }
 
 .tab-throbber[busy]::after {
-    content: '';
-    display: block;
-    width: 16px;
-    height: 16px;
+    background-color: var(--spinner-busy);
     filter: contrast(2.5);
-    background-color: color-mix(in srgb, var(--zen-primary-color) 40%, var(--button-text-color) 60%);
-    mask-image: url("data:image/svg+xml,%3csvg width='16' height='16' stroke='%23ffffff' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3e%3cstyle%3e.spinner_V8m1%7btransform-origin:center;animation:spinner_zKoa 2s linear infinite%7d.spinner_V8m1 circle%7bstroke-linecap:round;animation:spinner_YpZS 1.5s ease-in-out infinite%7d@keyframes spinner_zKoa%7b100%25%7btransform:rotate(360deg)%7d%7d@keyframes spinner_YpZS%7b0%25%7bstroke-dasharray:0 150;stroke-dashoffset:0%7d47.5%25%7bstroke-dasharray:42 150;stroke-dashoffset:-16%7d95%25,100%25%7bstroke-dasharray:42 150;stroke-dashoffset:-59%7d%7d%3c/style%3e%3cg class='spinner_V8m1'%3e%3ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3.5'%3e%3c/circle%3e%3c/g%3e%3c/svg%3e") !important;
-    mask-size: contain;
-    mask-repeat: no-repeat;
 }
+
+.tabbrowser-tab[selected="true"] .tab-throbber[progress]::after {
+    background-color: var(--spinner-progress);
+    filter: contrast(2);
+}
+
+
 }
