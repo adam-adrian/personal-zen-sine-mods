@@ -1,7 +1,7 @@
 {
     "id": "random-personal-zen-mods__tab-throbber-loading-circle",
     "name": "Tab Throbber to Loading Circle",
-    "description": "Change the tab throbber animation to a loading circle that matches Zen's theme colors.",
+    "description": "Change the tab throbber (tab loading icon indicator) animation to a loading circle.",
     "homepage": "https://github.com/adam-adrian/personal-zen-sine-mods",
     "style": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/tab-throbber-loading-circle/userChrome.css",
     "preferences": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/tab-throbber-loading-circle/preferences.json",

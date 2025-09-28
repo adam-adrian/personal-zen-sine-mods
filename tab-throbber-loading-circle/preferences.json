@@ -2,13 +2,13 @@
   {
     "property": "zen.theme.hide-tab-throbber",
     "type": "checkbox",
-    "label": "Toggle Builtin Tab Throbber in Zen",
+    "label": "Toggle Hiding Builtin Tab Throbber in Zen (uncheck to enable)",
     "default": "false"
   },
   {
     "property": "randommods.tab-throbber-loading-circle",
     "type": "checkbox",
-    "label": "Change Tab Throbber to Loading Circle",
+    "label": "Change Tab Throbber animation to Loading Circle",
     "default": "true"
   }
 ]
