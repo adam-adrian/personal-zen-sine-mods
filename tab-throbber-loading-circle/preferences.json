@@ -2,7 +2,7 @@
   {
     "property": "randommods.tab-throbber-loading-circle",
     "type": "checkbox",
-    "label": "Change Tab Throbber animation to Loading Circle",
+    "label": "Enable Spinner Animation for Tab Loading Indicator",
     "default": "true"
   }
 ]
