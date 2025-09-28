@@ -1,7 +1,7 @@
 {
     "id": "random-personal-zen-mods__tab-throbber-loading-circle",
     "name": "Tab Throbber to Loading Circle",
-    "description": "Change the tab throbber (tab loading icon indicator) animation to a loading circle.",
+    "description": "Change the tab throbber (tab loading icon indicator) animation to a loading circle. Firstly uncheck "Toggle Hiding Builtin Tab Throbber" from this mod setting to use",
     "homepage": "https://github.com/adam-adrian/personal-zen-sine-mods",
     "style": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/tab-throbber-loading-circle/userChrome.css",
     "preferences": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/tab-throbber-loading-circle/preferences.json",
