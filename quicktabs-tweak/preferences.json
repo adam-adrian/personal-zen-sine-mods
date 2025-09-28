@@ -1,5 +1,11 @@
 [
-{
+  {
+    "property": "randommods.quicktabs-tweak",
+    "type": "checkbox",
+    "label": "Quick Tabs Tweak",
+    "default": "true"
+  },
+  {
     "property": "randommods.quicktabs-icon-only",
     "type": "checkbox",
     "label": "Quick Tabs Icon Only",

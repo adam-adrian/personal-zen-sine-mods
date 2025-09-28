@@ -4,6 +4,7 @@
     "description": "Remove reset slash from pinned tabs section",
     "homepage": "https://github.com/adam-adrian/personal-zen-sine-mods",
     "style": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/remove-reset-slash/userChrome.css",
+    "preferences": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/remove-reset-slash/preferences.json",
     "readme": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/README.md",
     "author": "neikamii",
     "version": "1.16t",

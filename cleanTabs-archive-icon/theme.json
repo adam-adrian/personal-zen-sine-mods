@@ -4,6 +4,7 @@
     "description": "Change CleanTabs Extension icon to archive icon when in bottom workspace sidebar",
     "homepage": "https://github.com/adam-adrian/personal-zen-sine-mods",
     "style": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/cleanTabs-archive-icon/userChrome.css",
+    "preferences": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/cleanTabs-archive-icon/preferences.json",
     "readme": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/README.md",
     "author": "neikamii",
     "version": "1.16t",

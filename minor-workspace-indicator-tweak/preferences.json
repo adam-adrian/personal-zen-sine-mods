@@ -1,0 +1,8 @@
+[
+  {
+    "property": "randommods.minor-workspace-indicator-tweak",
+    "type": "checkbox",
+    "label": "Minor Workspace Indicator Tweak",
+    "default": "true"
+  }
+]

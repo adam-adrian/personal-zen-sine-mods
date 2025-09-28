@@ -4,6 +4,7 @@
     "description": "Minor tweak to workspace indicator to make it more good looking",
     "homepage": "https://github.com/adam-adrian/personal-zen-sine-mods",
     "style": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/minor-workspace-indicator-tweak/userChrome.css",
+    "preferences": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/minor-workspace-indicator-tweak/preferences.json",
     "readme": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/README.md",
     "author": "neikamii",
     "version": "1.16t",

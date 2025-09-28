@@ -1,0 +1,8 @@
+[
+    {
+    "property": "randommods.clean-tabs-archive-icon",
+    "type": "checkbox",
+    "label": "Clean Tabs Archive Icon",
+    "default": "true"
+    }
+]
