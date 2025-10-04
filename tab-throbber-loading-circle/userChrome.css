@@ -6,7 +6,7 @@
 }
 
 #tabbrowser-tabs {
-    & .tabbrowser-tab {
+    & .tabbrowser-tab[busy] {
         .tab-throbber {
             display: flex !important;
             scale: 1;
