@@ -5,7 +5,7 @@
     "label": "Remove Reset Slash From Pinned Tabs",
     "default": "true"
   },
-  
+
   {
     "property": "randommods.clean-tabs-archive-icon",
     "type": "checkbox",
@@ -26,14 +26,14 @@
     "label": "Quick Tabs Icon Only",
     "default": "true"
   },
-  
+
   {
     "property": "randommods.minor-workspace-indicator-tweak",
     "type": "checkbox",
     "label": "Minor Workspace Indicator Tweak",
     "default": "true"
   },
-  
+
   {
     "property": "randommods.nebula-miniplayer-margin-tweak",
     "type": "checkbox",
@@ -45,6 +45,13 @@
     "property": "randommods.tab-throbber-loading-circle",
     "type": "checkbox",
     "label": "Enable Spinner Animation for Tab Loading Indicator",
+    "default": "true"
+  },
+
+  {
+    "property": "randommods.change-copy-url-ext-adressbar-icon",
+    "type": "checkbox",
+    "label": "Change Copy URL Extension Icon on Address Bar",
     "default": "true"
   }
 ]

@@ -1,0 +1,8 @@
+[
+    {
+    "property": "randommods.change-copy-url-ext-adressbar-icon",
+    "type": "checkbox",
+    "label": "Change Copy URL Extension Icon on Address Bar",
+    "default": "true"
+    }
+]
