@@ -7,11 +7,11 @@
     "preferences": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/refs/heads/main/change-copy-url-ext-adressbar-icon/preferences.json",
     "readme": "https://raw.githubusercontent.com/adam-adrian/personal-zen-sine-mods/main/README.md",
     "author": "neikamii",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "tags": [
         "Zen Browser"
     ],
     "createdAt": "2025-10-04",
-    "updatedAt": "2025-10-04 10:25:00",
+    "updatedAt": "2025-10-06 05:15:00",
     "fork": ["zen"]
 }

@@ -5,3 +5,22 @@
 @import "nebula-miniplayer-margin-tweak/userChrome.css";
 @import "tab-throbber-loading-circle/userChrome.css";
 @import "change-copy-url-ext-adressbar-icon/userChrome.css";
+
+@media (-moz-bool-pref: "randommods.hide-compact-mode-button") {
+  #zen-toggle-compact-mode {
+    display: none;
+  }
+}
+
+@media (moz-bool-pref: "randommods.show-pageaction-in-urlbar") {
+  :root[zen-single-toolbar="true"] {
+    #urlbar:hover {
+      .urlbar-addon-page-action {
+        display: inherit !important;
+      }
+    }
+    #page-action-buttons {
+      order: 1 !important;
+    }
+  }
+}

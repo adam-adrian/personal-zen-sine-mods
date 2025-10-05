@@ -53,5 +53,19 @@
     "type": "checkbox",
     "label": "Change Copy URL Extension Icon on Address Bar",
     "default": "true"
+  },
+
+  {
+    "property": "randommods.hide-compact-mode-button",
+    "type": "checkbox",
+    "label": "Hide Compact Mode Button",
+    "default": "true"
+  },
+
+  {
+    "property": "randommods.show-pageaction-in-urlbar",
+    "type": "checkbox",
+    "label": "Show Page Action Icons in Address Bar",
+    "default": "true"
   }
 ]
