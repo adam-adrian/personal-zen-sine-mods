@@ -56,9 +56,9 @@
   },
 
   {
-    "property": "randommods.hide-compact-mode-button",
+    "property": "randommods.hide-overflow-button",
     "type": "checkbox",
-    "label": "Hide Compact Mode Button",
+    "label": "Hide Overflow Button",
     "default": "true"
   },
 
