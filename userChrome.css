@@ -12,7 +12,7 @@
   }
 }
 
-@media (moz-bool-pref: "randommods.show-pageaction-in-urlbar") {
+@media (-moz-bool-pref: "randommods.show-pageaction-in-urlbar") {
   :root[zen-single-toolbar="true"] {
     #urlbar:hover {
       .urlbar-addon-page-action {
