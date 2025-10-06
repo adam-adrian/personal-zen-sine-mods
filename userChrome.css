@@ -6,8 +6,8 @@
 @import "tab-throbber-loading-circle/userChrome.css";
 @import "change-copy-url-ext-adressbar-icon/userChrome.css";
 
-@media (-moz-bool-pref: "randommods.hide-compact-mode-button") {
-  #zen-toggle-compact-mode {
+@media (-moz-bool-pref: "randommods.hide-overflow-button") {
+  #nav-bar-overflow-button {
     display: none;
   }
 }
