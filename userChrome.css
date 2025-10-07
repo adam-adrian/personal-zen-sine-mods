@@ -24,3 +24,11 @@
     }
   }
 }
+
+@media (-moz-bool-pref: "randommods.panelview-noborder") {
+  panelview {
+    border: 0px !important;
+    background-color: unset !important;
+    color: initial !important;
+  }
+}

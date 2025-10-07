@@ -67,5 +67,12 @@
     "type": "checkbox",
     "label": "Show Page Action Icons in Address Bar",
     "default": "true"
+  },
+
+  {
+    "property": "randommods.panelview-noborder",
+    "type": "checkbox",
+    "label": "Remove Border from Panel View",
+    "default": "true"
   }
 ]
